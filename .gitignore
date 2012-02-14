@@ -1,0 +1,5 @@
+bin/
+gen/
+AndroidManifest.out.xml
+.settings
+*.log
