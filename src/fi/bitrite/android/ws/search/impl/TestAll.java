@@ -9,13 +9,13 @@ import org.junit.runners.Suite;
  * of the tests within its package as well as within any subpackages of its
  * package.
  *
- * @generatedBy CodePro at 2/14/12 8:13 PM
+ * @generatedBy CodePro at 2/18/12 12:34 PM
  * @author johannes
  * @version $Revision: 1.0 $
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	HttpTextSearchTest.class,
+	HttpTextSearchResultScraperTest.class,
 })
 public class TestAll {
 
@@ -24,7 +24,7 @@ public class TestAll {
 	 *
 	 * @param args the command line arguments
 	 *
-	 * @generatedBy CodePro at 2/14/12 8:13 PM
+	 * @generatedBy CodePro at 2/18/12 12:34 PM
 	 */
 	public static void main(String[] args) {
 		JUnitCore.runClasses(new Class[] { TestAll.class });
