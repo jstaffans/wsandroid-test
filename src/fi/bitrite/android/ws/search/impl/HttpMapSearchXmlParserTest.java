@@ -29,7 +29,7 @@ public class HttpMapSearchXmlParserTest {
 			fixture.getHosts();
 		}
 		
-		catch (SearchFailedException e) {
+		catch (HttpException e) {
 			return;
 		}
 		
