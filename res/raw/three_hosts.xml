@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<root>
+<!-- minlon=-111.313476562, maxlon=-108.347167969, minlat=51.3065794559, maxlat=52.6597259334 -->
+<!-- Number of items=  -->
+<!-- SELECT u.uid, mail, w.fullname name, street, city, province, postal_code, country, latitude, longitude,
+		 source, notcurrentlyavailable,
+		 DEGREES(ACOS(SIN(RADIANS(%f)) * SIN(RADIANS(latitude))+COS(RADIANS(%f)) * COS(RADIANS(latitude))  *
+		COS(RADIANS(%f-longitude)))) * 60      as distance
+		from {users} u, {user_location} l, {wsuser} w
+		 where latitude > %f and latitude < %f and longitude >%f and longitude <%f 
+		 and u.uid = l.oid and u.uid=w.uid and u.status>0 and !w.isunreachable and !w.isstale
+		 and !notcurrentlyavailable
+		order by distance asc limit %d, %d -->
+<status id="status" delivered="" totalresults="3" status="complete">complete</status>
+<hosts>
+<host u="779" n="Test Person 1" s="Street 1" c="Castor" p="ab" z="T0C 0X0" cnt="ca" la="10.0" ln="20.5" d="9.28938656774895"  />
+<host u="789" n="Test Person 2" s="Street 2" c="Medicine Hat" p="ab" z="T1A 1N3" cnt="ca" la="50.0" ln="60.5" d="121.811042244049"  />
+<host u="16154" n="Test Person 3" s="Street 3" c="Great Falls" p="mt" z="59405" cnt="us" la="100.1001" ln="-100.1002" d="273.985250170575"  />
+</hosts>
+</root>
