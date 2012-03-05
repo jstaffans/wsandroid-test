@@ -9,6 +9,7 @@ import java.util.List;
 import org.junit.Test;
 
 import fi.bitrite.android.ws.model.HostBriefInfo;
+import fi.bitrite.android.ws.util.http.HttpException;
 
 /**
  * The class <code>HttpMapSearchXmlParserTest</code> contains tests for the

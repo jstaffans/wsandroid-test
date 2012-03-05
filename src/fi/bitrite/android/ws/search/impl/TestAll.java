@@ -9,7 +9,7 @@ import org.junit.runners.Suite;
  * of the tests within its package as well as within any subpackages of its
  * package.
  *
- * @generatedBy CodePro at 3/3/12 10:15 PM
+ * @generatedBy CodePro at 3/5/12 11:28 PM
  * @author johannes
  * @version $Revision: 1.0 $
  */
@@ -17,6 +17,7 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
 	HttpMapSearchXmlParserTest.class,
 	HttpTextSearchResultScraperTest.class,
+	HttpHostIdScraperTest.class,
 })
 public class TestAll {
 
@@ -25,7 +26,7 @@ public class TestAll {
 	 *
 	 * @param args the command line arguments
 	 *
-	 * @generatedBy CodePro at 3/3/12 10:15 PM
+	 * @generatedBy CodePro at 3/5/12 11:28 PM
 	 */
 	public static void main(String[] args) {
 		JUnitCore.runClasses(new Class[] { TestAll.class });

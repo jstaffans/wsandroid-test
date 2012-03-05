@@ -29,5 +29,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/WSAndroid/lib/overlaymanager-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/WSAndroid/lib/gson-2.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
